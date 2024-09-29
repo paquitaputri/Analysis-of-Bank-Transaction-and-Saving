@@ -13,7 +13,8 @@ This project focuses on Bank Transaction and Savings analysis, where this analys
 1. [Kaggle](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation)
   - Size: 25 MB
   - Columns: TransactionID, CustomerID, CustomerDOB, CustGender, CustLocation, CustAccountBalance, TransactionDate, TransactionTime, TransactionAmount
-2. Fake Stream
+2. Fake Stream for Today's Transaction Data
+3. For Saving Data makes dummy but CustomerID based on the Kaggle data.
 
 ## Tools and Technologies
 - Docker: For container management
