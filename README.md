@@ -1,7 +1,7 @@
 # Analysis of Bank Transaction and Saving
 
 ## Project Overview
-This project focuses on analyzing Transactions and Saving Bank, utilizing Power BI for comprehensive insights. The dataset comprises the Transactions fact table, along with dimension tables including Location, Customers, Transaction Type, Hour, and Calendar. The analysis involves data cleaning, transformation, and visualization.
+This project focuses on analyzing Transactions and Saving Bank, utilizing Power BI for comprehensive insights. The dataset comprises the Transactions fact table, along with dimension tables including Location, Customers, Hour, and Calendar. The analysis involves data cleaning, transformation, and visualization.
 
 ## Goals of This Project
 1. Average Transaction Amount by Location
