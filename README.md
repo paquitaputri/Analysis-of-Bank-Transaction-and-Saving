@@ -6,7 +6,7 @@ This project focuses on Bank Transaction and Savings analysis, where this analys
 ## Goals of This Project
 1. Average Transaction Amount by Location
 2. Analyzing the age groups with the highest number of transactions, along with their location (Trend Analysis of Transaction Volume and Amount)
-3. Perform Location-wise analysis to identify regional trends in India
+3. Perform Location-wise analysis to identify regional trends
 4. Perform transaction-related analysis to identify interesting trends that can be used by a bank to improve / optimi their user experiences
 
 ## Datasets
