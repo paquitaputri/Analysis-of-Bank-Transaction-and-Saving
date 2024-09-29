@@ -1,7 +1,7 @@
 # Analysis of Bank Transaction and Saving
 
 ## Project Overview
-This project focuses on Bank Transaction and Savings analysis, where this analysis is used to find out the state of income and monitor transactions in the bank. The data set consists of a Transaction fact table, along with dimension tables including Location, Customer, Hour, and Calendar. The analysis involves data cleaning, transformation, and visualization.
+This project focuses on Bank Transaction and Savings analysis, where this analysis is used to monitor transactions in the bank. The data set consists of a Transaction fact table, along with dimension tables including Location, Customer, Hour, and Calendar. The analysis involves data cleaning, transformation, and visualization.
 
 ## Goals of This Project
 1. Average Transaction Amount by Location
