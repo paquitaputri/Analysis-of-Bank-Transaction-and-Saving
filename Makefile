@@ -89,7 +89,7 @@ sqlserver-create:
 	@echo '__________________________________________________________'
 	@echo 'Creating database...'
 	@echo '_________________________________________'
-	@docker exec -it ${SQL_SERVER_CONTAINER_NAME} /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P ${SQL_SERVER_PASSWORD} -C -i sql/sqlserver-create.sql
+	@docker exec -it ${SQL_SERVER_CONTAINER_NAME} /opt/mssql-tools18/bin/sqlcmd -S ${SQL_SERVER_CONTAINER_NAME} -U ${SQL_SERVER_USER} -P ${SQL_SERVER_PASSWORD} -C -i sql/sqlserver-create.sql
 	@echo 'Creating database ${SQL_SERVER_DB} is successed'
 	@sleep 5
 	@echo '==========================================================='
