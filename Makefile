@@ -86,8 +86,20 @@ sqlserver-create:
 	@docker compose -f ./docker/docker-compose-sqlserver.yml --env-file .env up -d
 	@echo '__________________________________________________________'
 	@echo 'SQL Server container created at port ${SQL_SERVER_PORT}...'
+	@echo '__________________________________________________________'
+	@echo 'Creating database...'
+	@echo '_________________________________________'
+	@docker exec -it ${SQL_SERVER_CONTAINER_NAME} /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P ${SQL_SERVER_PASSWORD} -C -i sql/sqlserver-create.sql
+	@echo 'Creating database ${SQL_SERVER_DB} is successed'
 	@sleep 5
 	@echo '==========================================================='
+
+# sqlserver-create-database:
+# 	@echo '__________________________________________________________'
+# 	@echo 'Creating tables...'
+# 	@echo '_________________________________________'
+# 	@docker exec -it ${SQL_SERVER_CONTAINER_NAME} psql -U sa -C -f sql/ddl-retail.sql
+# 	@echo '==========================================================='
 
 kafka: kafka-create
 
